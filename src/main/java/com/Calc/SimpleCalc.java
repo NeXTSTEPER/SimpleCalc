@@ -38,7 +38,7 @@ public class SimpleCalc {
 			}
 			
 			
-			//checks if birth year entered to determine if nineties kid
+			//checks if birth year entered to determine if nineties *implemented to experiment with different assert methods
 			public boolean isNinetiesKid(int birthyear) {
 			       boolean isNinetiesKid;
 			       if(birthyear >= 1990 && birthyear <= 1999) {

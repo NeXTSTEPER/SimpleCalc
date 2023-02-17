@@ -52,11 +52,17 @@ public class SimpleCalcTest {
 		   assertNotEquals(5157.34, result, 1.0);
     }	
 	
+	//*implemented to experiment with different assert methods
 	@Test
     public void testIsNinetiesKid() {
 		boolean test = scTest.isNinetiesKid(1991);
 		 assertTrue(test);
     }
         
+	@Test
+    public void testIsNinetiesKidTwo() {
+		boolean test = scTest.isNinetiesKid(1980);
+		 assertFalse(test);
+    }
          
     }
